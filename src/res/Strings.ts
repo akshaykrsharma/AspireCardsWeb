@@ -6,7 +6,7 @@ const Strings = {
     credit: 'Credit',
     profile: 'Profile'
   },
-  appName: 'AspireCards',
+  appName: 'DEMO APP',
   availableBalance: 'Available Balance',
   validthru: 'Thru: ',
   cvv: 'CVV: ',
