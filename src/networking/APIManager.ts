@@ -19,13 +19,13 @@ export default class APIManager {
       baseURL: EndPoints.BASE_URL,
       timeout: 3 * 60 * 1000,
     });
-    if (methodType == 'GET') {
+    if (methodType === 'GET') {
       promise = API.get(endPoint, {params});
-    } else if (methodType == 'POST') {
+    } else if (methodType === 'POST') {
       promise = API.post(endPoint, params);
-    } else if (methodType == 'PATCH') {
+    } else if (methodType === 'PATCH') {
       promise = API.patch(endPoint, params);
-    } else if (methodType == 'PUT') {
+    } else if (methodType === 'PUT') {
       promise = API.put(endPoint, params);
     } else {
       promise = API.delete(endPoint, params);
