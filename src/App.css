@@ -24,6 +24,20 @@
   color: white;
 }
 
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: sticky;
+  top: 0;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #0C365A;
+  color: #fff;
+}
+
 .App-link {
   color: #61dafb;
 }
